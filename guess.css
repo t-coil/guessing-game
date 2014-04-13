@@ -1,0 +1,114 @@
+/**************************************  
+GENERAL
+**************************************/
+
+body {
+	background-image: url('img/struckaxiom.png');
+	font-family: 'Buda', cursive;
+	text-align: center;
+}
+
+.wrapper {
+	left: 10%;
+	right: 10%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 10px;
+	min-height: 95%%;
+	background-image: url('img/squairy_light.png');
+}
+
+/**************************************  
+HEADER
+**************************************/
+
+header {
+	margin: 0 auto;
+	color: #3E3E3E;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 1.5em;
+	padding: 0 20px;
+}
+
+h2 {
+	font-family: 'Buda', cursive;
+	font-size: 1em;
+}
+
+/**************************************  
+GAME STYLINGS
+**************************************/
+
+.box {
+	background-image: url('img/stardust.png');
+	color: #E6E6E6;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 300px;
+	padding: 30px;
+}
+
+#guessbox {
+	background-color: #F1F1F1;
+	color: #3E3E3E;
+	max-width: 60%;
+	text-align: center;
+	font-size: 0.75em;
+	margin: 20px;
+	padding: 20px 0;
+	border: 5px solid #3E3E3E;
+	outline: 0;
+}
+
+#hotcold {
+	margin: 20px 0 0 0;
+}
+
+#answer {
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+button {
+	color: #3E3E3E;
+	background-color: #ECECEC;
+	width: 100px;
+	font-family: 'Poiret One', cursive;
+	font-size: 1em;
+	outline: 0;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+
+/**************************************  
+RESPONSIVE CSS
+**************************************/
+
+@media screen and (min-width: 480px) {
+
+	.wrapper {
+		left: 20%;
+		right: 20%;
+	}
+
+	h1 {
+	font-size: 2em;
+	}
+
+	h2 {
+	font-family: 'Buda', cursive;
+	font-size: 1.25em;
+	}
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Tiny Game</title>
+	<meta charset="utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "guess.css">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Gafata|Buda:300|Bubbler+One' rel='stylesheet' type='text/css'>
+	<script src = "jquery.min.js"></script>
+	<script src = "guessing.js"></script>
+</head>
+<body>
+	<div class = "wrapper">
+		<header>
+			<h1>a tiny game</h1>
+			<h2>i know a number between 1 - 100. <br>
+				can you guess it?</h2>
+		</header>
+			<div class = "box">
+			Enter your guess here:<br>
+			<input type = "text" id = "guessbox">
+			</div>
+			<p id = "hotcold"></p>
+			<p id = "answer"></p>
+			<ul>
+				<li><button id = "checkit">check it</button></li>
+				<li><button id = "reset">reset game</button></li>
+			</ul>
+	</div>
+</body>
+</html>
